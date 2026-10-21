@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Good Me — 100% Organic Wellness, Adaptogens & Superfood Elixirs</title>
+  <meta name="description" content="Discover Good Me: science-backed organic superfood blends, adaptogenic elixirs, and cold-pressed wellness formulas crafted to nourish mind, body and gut health.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <aside class="top-bar" id="announcement-bar">
+    <div class="top-bar-inner">
+      <span class="badge-pill">🍃 USDA Organic Certified</span>
+      <p>Complimentary Express Shipping on all subscriptions | <strong>Use code: TOXA20 for 20% OFF</strong></p>
+      <button class="top-bar-close" id="closeTopBarBtn" aria-label="Close bar">&times;</button>
+    </div>
+  </aside>
+
+  <!-- Sticky Navbar -->
+  <header class="site-header" id="header">
+    <div class="header-container">
+      <a href="#" class="brand-logo" id="brand-logo">
+        <span class="logo-leaf">🌱</span>
+        <span class="logo-text">Good<strong>Me</strong></span>
+      </a>
+
+      <nav class="nav-links" id="nav-links">
+        <a href="#formulas" class="nav-item">Formulas</a>
+        <a href="#quiz" class="nav-item">Wellness Quiz</a>
+        <a href="#benefits" class="nav-item">Why Good Me</a>
+        <a href="#reviews" class="nav-item">Real Stories</a>
+        <a href="#ingredients" class="nav-item">Ingredients</a>
+        <a href="#journal" class="nav-item">Journal</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="btn-icon" id="searchBtn" title="Search formulas" aria-label="Search">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        </button>
+        <button class="btn-cart" id="cartToggleBtn" aria-label="View Cart">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+          <span class="cart-count" id="cartCount">2</span>
+        </button>
+        <a href="#formulas" class="btn btn-primary btn-sm">Shop Elixirs</a>
+        <button class="hamburger-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <main>
+    <section class="hero-section" id="hero">
+      <div class="hero-bg-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+      </div>
+      <div class="hero-container">
+        <div class="hero-content">
+          <div class="hero-tag">
+            <span class="dot"></span> 100% Plant-Derived Supernutrients
+          </div>
+          <h1 class="hero-title">
+            Nourish Your Body. <br>
+            <span class="gradient-text">Awaken Your Radiance.</span>
+          </h1>
+          <p class="hero-subtitle">
+            Clinically validated adaptogenic elixirs, functional mushrooms, and clean botanical extracts engineered to harmonize gut health, sustain morning energy, and restore deep restorative sleep.
+          </p>
+          <div class="hero-cta-group">
+            <a href="#formulas" class="btn btn-primary btn-lg" id="exploreFormulasBtn">Explore Formulas</a>
+            <a href="#quiz" class="btn btn-secondary btn-lg" id="takeQuizBtn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              Find Your Formula (60s)
+            </a>
+          </div>
+          <div class="trust-indicators">
+            <div class="trust-item">
+              <strong>98.4%</strong>
+              <span>Reported higher daily focus</span>
+            </div>
+            <div class="trust-divider"></div>
+            <div class="trust-item">
+              <strong>45,000+</strong>
+              <span>Active monthly drinkers</span>
+            </div>
+            <div class="trust-divider"></div>
+            <div class="trust-item">
+              <strong>100%</strong>
+              <span>Zero refined sugar or fillers</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="visual-card-wrapper">
+            <div class="hero-card glassmorphism">
+              <div class="badge-award">★ Best Wellness Blend 2026</div>
+              <div class="product-render-center">
+                <div class="bottle-glow"></div>
+                <div class="bottle-mockup">
+                  <div class="bottle-cap"></div>
+                  <div class="bottle-neck"></div>
+                  <div class="bottle-body">
+                    <span class="bottle-brand">GoodMe</span>
+                    <span class="bottle-label">PURE RADIANCE</span>
+                    <span class="bottle-sub">Tremella • Lion's Mane • Wild Berry</span>
+                    <div class="bottle-leaf-icon">🌿</div>
+                  </div>
+                </div>
+              </div>
+              <div class="floating-stat-pill stat-pill-left">
+                <div class="stat-icon">✨</div>
+                <div>
+                  <strong>Glowing Skin</strong>
+                  <small>+38% cellular hydration</small>
+                </div>
+              </div>
+              <div class="floating-stat-pill stat-pill-right">
+                <div class="stat-icon">🧠</div>
+                <div>
+                  <strong>Cognitive Calm</strong>
+                  <small>Zero caffeine jitters</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Value Props Bar -->
+    <section class="value-strip">
+      <div class="value-strip-container">
+        <div class="value-item">
+          <span class="value-icon">🔬</span>
+          <div>
+            <h4>Third-Party Lab Tested</h4>
+            <p>Every single batch screened for heavy metals and purity</p>
+          </div>
+        </div>
+        <div class="value-item">
+          <span class="value-icon">🌱</span>
+          <div>
+            <h4>Regenerative Sourcing</h4>
+            <p>Direct farm partnerships honoring ecological soil health</p>
+          </div>
+        </div>
+        <div class="value-item">
+          <span class="value-icon">⚡</span>
+          <div>
+            <h4>Fast Bioavailability</h4>
+            <p>Micronized cold-water solubility for immediate absorption</p>
+          </div>
+        </div>
+        <div class="value-item">
+          <span class="value-icon">♻️</span>
+          <div>
+            <h4>Plastic-Free Packaging</h4>
+            <p>Infinitely recyclable amber UV glass and compostable seals</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Wellness Quiz Finder -->
+    <section class="quiz-section" id="quiz">
+      <div class="section-container">
+        <div class="section-header text-center">
+          <span class="sub-header">Personalized Nutrition</span>
+          <h2 class="section-title">Find Your Ideal Daily Formula</h2>
+          <p class="section-subtitle">Answer 3 brief questions and our botanical algorithm curates your custom morning and evening regimen.</p>
+        </div>
+
+        <div class="quiz-card glassmorphism" id="quizContainer">
+          <div class="quiz-progress-bar">
+            <div class="quiz-progress" id="quizProgress" style="width: 33%;"></div>
+          </div>
+          
+          <!-- Step 1 -->
+          <div class="quiz-step active" id="quizStep1">
+            <span class="step-num">Step 1 of 3</span>
+            <h3 class="quiz-question">What is your primary wellness goal today?</h3>
+            <div class="quiz-options-grid">
+              <button class="quiz-option-btn" data-goal="energy">
+                <span class="opt-emoji">⚡</span>
+                <strong>Sustained Energy & Focus</strong>
+                <small>Crush mental fatigue without coffee crashes</small>
+              </button>
+              <button class="quiz-option-btn" data-goal="gut">
+                <span class="opt-emoji">🌿</span>
+                <strong>Gut Health & Digestion</strong>
+                <small>Reduce bloating, nourish microbiome</small>
+              </button>
+              <button class="quiz-option-btn" data-goal="glow">
+                <span class="opt-emoji">✨</span>
+                <strong>Skin Radiance & Collagen</strong>
+                <small>Cellular glow, hydration & youthful elasticity</small>
+              </button>
+              <button class="quiz-option-btn" data-goal="calm">
+                <span class="opt-emoji">🌙</span>
+                <strong>Deep Sleep & Cortisol Reset</strong>
+                <small>Quiet racing thoughts, wake up renewed</small>
+              </button>
+            </div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="quiz-step" id="quizStep2" style="display: none;">
+            <span class="step-num">Step 2 of 3</span>
+            <h3 class="quiz-question">When do you prefer to take your daily ritual?</h3>
+            <div class="quiz-options-grid">
+              <button class="quiz-option-btn" data-time="morning">
+                <span class="opt-emoji">🌅</span>
+                <strong>Early Morning Awakening</strong>
+                <small>With warm water, smoothie, or tea</small>
+              </button>
+              <button class="quiz-option-btn" data-time="afternoon">
+                <span class="opt-emoji">☀️</span>
+                <strong>Midday 2 PM Slump</strong>
+                <small>Replenish energy and mental stamina</small>
+              </button>
+              <button class="quiz-option-btn" data-time="evening">
+                <span class="opt-emoji">🌌</span>
+                <strong>Evening Wind-Down</strong>
+                <small>Warm golden milk or nightcap elixir</small>
+              </button>
+            </div>
+          </div>
+
+          <!-- Step 3 / Result -->
+          <div class="quiz-step" id="quizStep3" style="display: none;">
+            <span class="step-num">Your Curated Recommendation</span>
+            <div class="quiz-result-box" id="quizResultBox">
+              <div class="result-badge">99.2% Match</div>
+              <h3 id="resultProductName">Good Me — Golden Cordyceps & Matcha Vitality</h3>
+              <p id="resultProductDesc">An invigorating organic synergy of high-altitude Himalayan Cordyceps, ceremonial Uji Matcha, and L-Theanine formulated to boost cellular ATP production without spike or crash.</p>
+              <div class="result-pricing">
+                <span class="current-price">$38.00</span>
+                <span class="old-price">$48.00</span>
+                <span class="discount-badge">Save 20% on First Order</span>
+              </div>
+              <div class="result-actions">
+                <button class="btn btn-primary btn-lg" id="addResultToCart">Add Recommended Formula to Cart</button>
+                <button class="btn btn-secondary" id="restartQuizBtn">Retake Quiz</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Signature Formulas Catalog -->
+    <section class="products-section" id="formulas">
+      <div class="section-container">
+        <div class="section-header-row">
+          <div>
+            <span class="sub-header">Signature Collection</span>
+            <h2 class="section-title">Hand-Crafted Botanical Elixirs</h2>
+          </div>
+          <div class="category-filters" id="productFilters">
+            <button class="filter-tab active" data-filter="all">All Blends</button>
+            <button class="filter-tab" data-filter="energy">Focus & Energy</button>
+            <button class="filter-tab" data-filter="glow">Skin & Radiance</button>
+            <button class="filter-tab" data-filter="calm">Sleep & Rest</button>
+            <button class="filter-tab" data-filter="gut">Gut Cleanse</button>
+          </div>
+        </div>
+
+        <div class="products-grid" id="productsGrid">
+          <!-- Card 1 -->
+          <article class="product-card" data-category="glow">
+            <div class="card-media">
+              <span class="tag-bestseller">Best Seller</span>
+              <div class="mockup-cup cup-pink">
+                <div class="cup-liquid"></div>
+                <div class="cup-art">🌸</div>
+              </div>
+              <button class="quick-view-btn" data-id="1">Quick View</button>
+            </div>
+            <div class="card-details">
+              <div class="card-rating">
+                <span class="stars">★★★★★</span>
+                <span class="reviews-count">(420 reviews)</span>
+              </div>
+              <h3 class="product-title">Pure Radiance Glow Elixir</h3>
+              <p class="product-botanicals">Tremella Fuciformis • Wild Seabuckthorn • Marine Phytoplankton</p>
+              <div class="card-foot">
+                <div class="product-price">
+                  <span class="price-val">$42.00</span>
+                  <span class="price-unit">/ 30 servings</span>
+                </div>
+                <button class="btn btn-add-cart" data-title="Pure Radiance Glow Elixir" data-price="42">Add +</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="product-card" data-category="energy">
+            <div class="card-media">
+              <span class="tag-organic">USDA Organic</span>
+              <div class="mockup-cup cup-green">
+                <div class="cup-liquid"></div>
+                <div class="cup-art">🍵</div>
+              </div>
+              <button class="quick-view-btn" data-id="2">Quick View</button>
+            </div>
+            <div class="card-details">
+              <div class="card-rating">
+                <span class="stars">★★★★★</span>
+                <span class="reviews-count">(318 reviews)</span>
+              </div>
+              <h3 class="product-title">Morning Clarity & Lion's Mane</h3>
+              <p class="product-botanicals">Organic Lion's Mane • Ceremonial Matcha • Ginkgo Biloba</p>
+              <div class="card-foot">
+                <div class="product-price">
+                  <span class="price-val">$39.00</span>
+                  <span class="price-unit">/ 30 servings</span>
+                </div>
+                <button class="btn btn-add-cart" data-title="Morning Clarity & Lion's Mane" data-price="39">Add +</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="product-card" data-category="calm">
+            <div class="card-media">
+              <span class="tag-bestseller">Night Ritual</span>
+              <div class="mockup-cup cup-purple">
+                <div class="cup-liquid"></div>
+                <div class="cup-art">🌙</div>
+              </div>
+              <button class="quick-view-btn" data-id="3">Quick View</button>
+            </div>
+            <div class="card-details">
+              <div class="card-rating">
+                <span class="stars">★★★★★</span>
+                <span class="reviews-count">(512 reviews)</span>
+              </div>
+              <h3 class="product-title">Deep Reishi & Golden Calm</h3>
+              <p class="product-botanicals">Red Reishi Spores • Ashwagandha KSM-66 • Ceylon Cinnamon</p>
+              <div class="card-foot">
+                <div class="product-price">
+                  <span class="price-val">$44.00</span>
+                  <span class="price-unit">/ 30 servings</span>
+                </div>
+                <button class="btn btn-add-cart" data-title="Deep Reishi & Golden Calm" data-price="44">Add +</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 4 -->
+          <article class="product-card" data-category="gut">
+            <div class="card-media">
+              <span class="tag-organic">Microbiome Reset</span>
+              <div class="mockup-cup cup-amber">
+                <div class="cup-liquid"></div>
+                <div class="cup-art">🌿</div>
+              </div>
+              <button class="quick-view-btn" data-id="4">Quick View</button>
+            </div>
+            <div class="card-details">
+              <div class="card-rating">
+                <span class="stars">★★★★★</span>
+                <span class="reviews-count">(285 reviews)</span>
+              </div>
+              <h3 class="product-title">Digestive Balance Prebiotic</h3>
+              <p class="product-botanicals">Artichoke Inulin • Spore Probiotics • Fermented Ginger Root</p>
+              <div class="card-foot">
+                <div class="product-price">
+                  <span class="price-val">$36.00</span>
+                  <span class="price-unit">/ 30 servings</span>
+                </div>
+                <button class="btn btn-add-cart" data-title="Digestive Balance Prebiotic" data-price="36">Add +</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Science & Comparison Table -->
+    <section class="science-section" id="benefits">
+      <div class="section-container">
+        <div class="section-header text-center">
+          <span class="sub-header">The Good Me Standard</span>
+          <h2 class="section-title">Why Ordinary Supplements Fall Short</h2>
+          <p class="section-subtitle">We believe true wellness is never made with synthetic isolates, gelatin binders, or artificial sweeteners.</p>
+        </div>
+
+        <div class="comparison-table-wrapper glassmorphism">
+          <table class="comparison-table">
+            <thead>
+              <tr>
+                <th>Standard Comparison</th>
+                <th class="col-highlight">Good Me Formulas 🌱</th>
+                <th>Conventional Brands</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Bioavailable Extraction</strong></td>
+                <td class="col-highlight"><span class="check-icon">✓</span> 100% Dual-Extracted (Water & Ethanolic)</td>
+                <td><span class="cross-icon">✗</span> Crude milled raw powders</td>
+              </tr>
+              <tr>
+                <td><strong>Organic Purity & Clean Label</strong></td>
+                <td class="col-highlight"><span class="check-icon">✓</span> 0 Sugars, Zero Stevia, Zero Fillers</td>
+                <td><span class="cross-icon">✗</span> Maltodextrin & artificial flavoring</td>
+              </tr>
+              <tr>
+                <td><strong>Sourcing Transparency</strong></td>
+                <td class="col-highlight"><span class="check-icon">✓</span> 100% Single-Origin High Altitude Farms</td>
+                <td><span class="cross-icon">✗</span> Undisclosed aggregated bulk blends</td>
+              </tr>
+              <tr>
+                <td><strong>Digestive Comfort</strong></td>
+                <td class="col-highlight"><span class="check-icon">✓</span> Gentle on empty stomach, prebiotic enriched</td>
+                <td><span class="cross-icon">✗</span> High stomach acid irritation</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Customer Reviews Carousel -->
+    <section class="reviews-section" id="reviews">
+      <div class="section-container">
+        <div class="section-header text-center">
+          <span class="sub-header">Real Feedback</span>
+          <h2 class="section-title">Loved by Over 45,000 Healthy Humans</h2>
+        </div>
+
+        <div class="reviews-slider">
+          <div class="review-card glassmorphism">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">"I substituted my third afternoon espresso with Good Me Morning Clarity. No heart racing, clean mental sharpness until 7 PM, and my digestion has never felt lighter."</p>
+            <div class="reviewer-info">
+              <div class="reviewer-avatar">ES</div>
+              <div>
+                <strong>Elena S.</strong>
+                <small>Architect & Yoga Practitioner • Verified Buyer</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-card glassmorphism">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">"Deep Reishi is an absolute game-changer. My Oura ring REM sleep score jumped by 24% in the very first week. The taste with warm oat milk is like a soothing ceremonial hot cocoa."</p>
+            <div class="reviewer-info">
+              <div class="reviewer-avatar">MK</div>
+              <div>
+                <strong>Marcus K.</strong>
+                <small>Creative Director • Verified Subscriber</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-card glassmorphism">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">"The Pure Radiance blend gave my skin that hydrated glass glow without requiring a 10-step skincare routine. Everyone at the clinic has asked what I’ve been drinking!"</p>
+            <div class="reviewer-info">
+              <div class="reviewer-avatar">SA</div>
+              <div>
+                <strong>Sophia A.</strong>
+                <small>Dermatology Nurse • Verified Buyer</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter CTA -->
+    <section class="newsletter-section" id="journal">
+      <div class="section-container">
+        <div class="newsletter-card glassmorphism">
+          <span class="badge-pill">Join the Ritual</span>
+          <h2>Receive Our Curated Longevity & Nutrition Protocols</h2>
+          <p>Get weekly research summaries, seasonal herbal recipes, and an instant <strong>20% discount code</strong> on your inaugural order.</p>
+          <form class="newsletter-form" id="newsletterForm">
+            <input type="email" placeholder="Enter your email address" required id="newsletterEmail">
+            <button type="submit" class="btn btn-primary">Claim 20% Voucher</button>
+          </form>
+          <div class="form-feedback" id="newsletterFeedback"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Interactive Slide-out Cart Drawer -->
+  <div class="cart-drawer-overlay" id="cartOverlay"></div>
+  <aside class="cart-drawer" id="cartDrawer">
+    <div class="cart-header">
+      <h3>Your Wellness Ritual (<span id="cartDrawerCount">2</span>)</h3>
+      <button class="cart-close-btn" id="closeCartBtn">&times;</button>
+    </div>
+    <div class="cart-body" id="cartItemsList">
+      <div class="cart-item">
+        <div class="cart-item-img">🌸</div>
+        <div class="cart-item-info">
+          <h4>Pure Radiance Glow Elixir</h4>
+          <span class="cart-item-price">$42.00</span>
+          <div class="qty-stepper">
+            <button class="qty-btn" onclick="updateItemQty(this, -1)">-</button>
+            <span class="qty-val">1</span>
+            <button class="qty-btn" onclick="updateItemQty(this, 1)">+</button>
+          </div>
+        </div>
+        <button class="btn-remove" onclick="removeCartItem(this)">&times;</button>
+      </div>
+      <div class="cart-item">
+        <div class="cart-item-img">🍵</div>
+        <div class="cart-item-info">
+          <h4>Morning Clarity & Lion's Mane</h4>
+          <span class="cart-item-price">$39.00</span>
+          <div class="qty-stepper">
+            <button class="qty-btn" onclick="updateItemQty(this, -1)">-</button>
+            <span class="qty-val">1</span>
+            <button class="qty-btn" onclick="updateItemQty(this, 1)">+</button>
+          </div>
+        </div>
+        <button class="btn-remove" onclick="removeCartItem(this)">&times;</button>
+      </div>
+    </div>
+    <div class="cart-footer">
+      <div class="cart-subtotal">
+        <span>Subtotal</span>
+        <strong id="cartSubtotalVal">$81.00</strong>
+      </div>
+      <p class="shipping-note">🌿 Free Carbon-Neutral Shipping included</p>
+      <button class="btn btn-primary btn-block" id="checkoutBtn">Proceed to Secure Checkout</button>
+    </div>
+  </aside>
+
+  <!-- Toast Notification -->
+  <div class="toast-notification" id="toastNotice">
+    <span class="toast-icon">✓</span>
+    <span class="toast-msg">Added to your wellness ritual!</span>
+  </div>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-col brand-col">
+        <div class="brand-logo">
+          <span class="logo-leaf">🌱</span>
+          <span class="logo-text">Good<strong>Me</strong></span>
+        </div>
+        <p>Holistic botanical nutrition and adaptogenic formulations developed to inspire mind-body harmony every single sunrise.</p>
+        <div class="social-links">
+          <a href="#" aria-label="Instagram">IG</a>
+          <a href="#" aria-label="TikTok">TT</a>
+          <a href="#" aria-label="YouTube">YT</a>
+          <a href="#" aria-label="Pinterest">PIN</a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Formulas</h4>
+        <ul>
+          <li><a href="#formulas">Radiance & Glow</a></li>
+          <li><a href="#formulas">Focus & Lion's Mane</a></li>
+          <li><a href="#formulas">Sleep & Reishi</a></li>
+          <li><a href="#formulas">Gut & Prebiotics</a></li>
+          <li><a href="#formulas">Discovery Starter Kit</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Philosophy</h4>
+        <ul>
+          <li><a href="#benefits">The Science of Adaptogens</a></li>
+          <li><a href="#benefits">Regenerative Farming</a></li>
+          <li><a href="#benefits">Third-Party Certificates</a></li>
+          <li><a href="#benefits">Sustainability Report</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Support & Legal</h4>
+        <ul>
+          <li><a href="#">FAQ & Help Center</a></li>
+          <li><a href="#">Manage Subscriptions</a></li>
+          <li><a href="#">Shipping & Returns</a></li>
+          <li><a href="#">Privacy Policy & Terms</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="footer-bottom-inner">
+        <p>&copy; 2026 Good Me Wellness Inc. Crafted with devotion for mindful living. Curated by <strong>Toxa</strong>.</p>
+        <p class="disclaimer">*These statements have not been evaluated by the FDA. This product is not intended to diagnose, treat, cure, or prevent any disease.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
